@@ -12,7 +12,6 @@ module W1
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
-    config.secret_key_base = 'f7ff5f571ffa7186eeb14006f7c4209643750b7879d360e1a8d0ef6c531284c496c9f72b81a22a5bd279c10495adaabd413c80a8585b8bc385b6492099e16759'
-    
+    config.secret_key_base =  '<%= ENV["SECRET_KEY_BASE"] %>'
   end
 end
