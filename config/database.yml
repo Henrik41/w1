@@ -26,4 +26,4 @@ production:
   database: woomatch
   pool: 5
   username: root
-  password:  <%= Rails.application.secrets[:production][:database][:password] %>
+  password:  DszAaPEB
