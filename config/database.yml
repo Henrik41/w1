@@ -26,4 +26,4 @@ production:
   database: woomatch
   pool: 5
   username: root
-  password: <%= ENV["MYSQL_PASSWORD"] %>
+  password: mysql_password
